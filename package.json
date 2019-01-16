@@ -24,5 +24,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://github.com/devjang17/movie_app"
+  "homepage": "https://github.com/devjang17/movie_app" 
 }
