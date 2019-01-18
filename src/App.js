@@ -8,7 +8,7 @@ class App extends Component {
 		
 	}
 
-	componentDidMount(){
+	componentDidMount(){ 
 		this._getMovies()
 	}
 
@@ -16,11 +16,11 @@ class App extends Component {
 		const movies = this.state.movies.map(movie =>{	
 			console.log(movie)
 			return <Movie 
-					   title={movie.title} 
-					   poster={movie.large_cover_image} 
-					   key={movie.id} 
+					   title={movie.title}
+					   poster={movie.large_cover_image}
+					   key={movie.id}
 					   genres={movie.genres}
-					   synopsis={movie.synopsis}
+					   synopsis={movie.synopsis} 
 					  />
 			
 		})
